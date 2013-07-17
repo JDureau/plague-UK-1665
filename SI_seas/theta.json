@@ -57,8 +57,8 @@
       "unit": "D",
       "type": "rate_as_duration",
       "min": 1,
-      "guess": 7,
-      "max":10,
+      "guess": 5,
+      "max":7,
       "sd_transf": 0.02
     },
 
@@ -74,8 +74,8 @@
     "rep": {
       "partition_id": "variable_time_series",
       "transformation": "logit",
-      "min": 1,
-      "guess":1,
+      "min": 0,
+      "guess":0.9,
       "max": 1,
       "sd_transf": 0.0
     },
