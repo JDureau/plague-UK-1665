@@ -14,7 +14,7 @@ series of the 1665 epidemic in the UK, each indicating the monthly number of dea
 and Eyam. Contrasting these two cases is interesting due to the population difference between London (460000 inhabitants)
 and Eyam (350 inhabitants). 
 
-![data](https://raw.github.com/JDureau/dengue-Madeira-2012/master/images/forecast.png?login=JDureau&token=e66b78f7f11574ef08f2b064073d0c67)
+![data](https://raw.github.com/JDureau/plague-UK-1665/master/images/data.png?login=JDureau&token=c5b1e3d648591265b128978f10a0bcee)
 
 
 
