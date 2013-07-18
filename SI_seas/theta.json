@@ -29,7 +29,7 @@
       "transformation": "log",
       "min": 0,
       "guess": 0.17,
-      "max": 0.6,
+      "max": 1,
       "sd_transf": 0.02
     },
 
@@ -65,19 +65,31 @@
     "sto": {
       "partition_id": "variable_population", 
       "transformation": "log",
-      "min": 0.1,
-      "guess": 0.1,
-      "max": 0.1,
+      "min": 0,
+      "guess": 0,
+      "max": 0,
       "sd_transf": 0.0
     },
     
     "rep": {
       "partition_id": "variable_time_series",
-      "transformation": "logit",
-      "min": 0,
-      "guess":0.9,
-      "max": 1,
-      "sd_transf": 0.0
+      "group": {
+        "London__Creighton__inc": {
+	  "transformation": "logit",
+          "min":  0,
+          "max":  1,
+          "guess":  0.98,
+          "sd_transf": 0.02
+        },
+
+        "Eyam__Kendall__inc": {
+	  "transformation": "logit",
+          "min": 0,
+	  "max": 1,
+	  "guess":  0.9,
+	  "sd_transf": 0.0
+        }
+      }
     },
 
     "phi": {

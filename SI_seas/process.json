@@ -18,12 +18,6 @@
   "model": [
     {"from": "S", "to": "I", "rate": "r0/(N+1)*(1+e*sin(2.0*M_PI*(t/ONE_YEAR + d)))*mu_d*I", "tag": ["transmission"], "comment":"infection"},
     {"from": "I", "to": "U", "rate": "correct_rate(mu_d)", "comment":"recovery"}
-  ],
-
-  "white_noise": [
-    {
-      "reaction": [{"from":"S", "to": "I"}],
-      "sd": "sto"
-    }
   ]
+
 }
