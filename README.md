@@ -60,14 +60,11 @@ model yourself, simply [install the package][6], and compile the model with:
 
     plom build -t map.json --local
 
-The joint posterior density of paths and parameters can be explored with:
+The joint posterior density of parameters can be explored with:
 
-    plom pipe map.json | ./kmcmc --full -M 10000 -n 200
+    plom pipe map.json | ./pmcmc --full -J 2000 -N 8 -a 0.98 -M 20000
     
-From these sampled trajectories, forecasts can be simulated with:
-
-    plom predict mle.json -n 303 -X X_1.csv -T trace_1.csv | ./simul sde -o 303 -D 470  --traj 
-    
+Which will create a trace_0.csv file.
 
 [1]: http://www.plosone.org/article/info:doi/10.1371/journal.pone.0008401    "Validation of Inverse Seasonal Peak Mortality in Medieval Plagues, Including the Black Death, in Comparison to Modern Yersinia pestis-Variant Diseases"
 [2]: http://en.wikipedia.org/wiki/William_Mompesson   "History of Eyam"
