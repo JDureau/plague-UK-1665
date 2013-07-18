@@ -21,25 +21,29 @@ Yet, at the end of the epidemic 250 people had died.
 
 
 This story sheds a particular light on the following time series that can be found
-in the *Bills of Mortality*.  Since 1932, these records had been filled by English doctors who had been asked to 
-identify the deaths due  tuberculosis, small pox, measles, French pox, and plague:
+in the *Bills of Mortality*.  Since 1932, these records had been filled by English doctors who to monitor the deaths
+due to tuberculosis, small pox, measles, French pox, and plague:
 
 ![data](https://raw.github.com/JDureau/plague-UK-1665/master/images/data.png?login=JDureau&token=c5b1e3d648591265b128978f10a0bcee)
 
 
 To analyse this dataset we use a simple SI model, meaning the individuals are either infected with plague or 
 susceptible to become infected.
-Seasonal forcing is introduced, which timing and amplitude are being estimated. At last, we consider that life
-expectancy with plague is between 1 and 10 days. Due to the inherent uncertainty
+Seasonal forcing is introduced, which timing and amplitude are being estimated. At last, we make no assumption
+on the type of plague at stake, allowing the life expectancy after infection to lie between one and seven days
+(respectively corresponding to pneumonic and bubonic plague).  Due to the inherent uncertainty
 in data collection, observational noise needs to be accounted for when modeling the dynamic of these epidemics
 as well as demographic stochasticity. The resulting estimates of the transmission potential of plague in each city, as
-well as the death rate with plague, are the following:
+well as life expectancy with plague, are the following:
 
 ![data](https://raw.github.com/JDureau/plague-UK-1665/master/images/post.png?login=JDureau&token=cf7c103e477d22b80a8d07c7d0a3f41e)
 
-These results suggest that the isolation and living conditions in Eyam lead to a higher transmissibility of the disease.
-Furthermore, a life expectancy with plague over one week suggests that this epidemic was a bubonic plague rather
-than a pneumonic plague that rather killed in one or two days.
+
+These results provide information that could not have been inferred from straight observation of the time series of deaths.
+First, they suggest that the isolation and living conditions in Eyam lead to a higher transmissibility of the
+disease. Furthermore, life expectancy after infection appears to be close to one week, suggests that this epidemic
+was a bubonic plague rather than a pneumonic plague.
+
 
 [1]: http://www.plosone.org/article/info:doi/10.1371/journal.pone.0008401    "Validation of Inverse Seasonal Peak Mortality in Medieval Plagues, Including the Black Death, in Comparison to Modern Yersinia pestis-Variant Diseases"
 [2]: http://en.wikipedia.org/wiki/William_Mompesson   "History of Eyam"
