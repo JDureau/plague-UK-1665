@@ -51,17 +51,12 @@ It relies on the [library of inference methods][4] developed in collaboration wi
 the the [PLOM.IO project][3].
 
 
-[1]: http://www.plosone.org/article/info:doi/10.1371/journal.pone.0008401    "Validation of Inverse Seasonal Peak Mortality in Medieval Plagues, Including the Black Death, in Comparison to Modern Yersinia pestis-Variant Diseases"
-[2]: http://en.wikipedia.org/wiki/William_Mompesson   "History of Eyam"
-[3]: http://plom.io/ "PLOM.IO"
-[4]: https://github.com/plom-io/plom-pipe "plom-pipe"
-
 Reproducing the results:
 ------------------------
 
 Data is contained in the *data* folder, in the csv format. Additionally, the folder SI_seas contains json files that 
-define a model and link it to the data, following the [PLOM.IO grammar][6]. To generate the code and play with the model
-yourself, simply [install the package][7], and compile the model with:
+define a model and link it to the data, following the [PLOM.IO grammar][5]. To generate the code and play with the
+model yourself, simply [install the package][6], and compile the model with:
 
     plom build -t map.json --local
 
@@ -74,8 +69,10 @@ From these sampled trajectories, forecasts can be simulated with:
     plom predict mle.json -n 303 -X X_1.csv -T trace_1.csv | ./simul sde -o 303 -D 470  --traj 
     
 
-[1]: http://www.ecdc.europa.eu/en/press/news/Lists/News/ECDC_DispForm.aspx?List=32e43ee8-e230-4424-a783-85742124029a&ID=845        "Dengue epidemic in Madeira"
-[2]: http://www.epiwork.eu/wp-content/uploads/2010/03/role.pdf "Aguiar et al."
-[3]: http://www.ncbi.nlm.nih.gov/pubmed/20639791 "Dengue hemorrhagic fever and shock syndromes."
-[6]: http://plom.io/cli/grammar "PLOM.IO grammar"
-[7]: http://plom.io/cli "workflow"
+[1]: http://www.plosone.org/article/info:doi/10.1371/journal.pone.0008401    "Validation of Inverse Seasonal Peak Mortality in Medieval Plagues, Including the Black Death, in Comparison to Modern Yersinia pestis-Variant Diseases"
+[2]: http://en.wikipedia.org/wiki/William_Mompesson   "History of Eyam"
+[3]: http://plom.io/ "PLOM.IO"
+[4]: https://github.com/plom-io/plom-pipe "plom-pipe"
+[5]: http://plom.io/cli/grammar "PLOM.IO grammar"
+[6]: http://plom.io/cli "workflow"
+
