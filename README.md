@@ -1,14 +1,15 @@
 plague-UK-1665
 ==============
 
-Recent analysis, based on time series analysis of historic and recent records of plague epidemics, have identified 
+The analysis of historic and recent records of plague epidemics have grought into relief 
 surprising discrepancies between between the characteristics of past and present epidemics that we had
-so far been attributing to plague. For example, in [this paper][1] Mark Welford and Brian Bossak show that the seasonal
-peaks of mortality of the medieval Black Death and current laboratory-confirmed cases differ significantly.
-Have we been wrong in attributing the Black Death epidemics to the bubonic and pneumonic plague? 
+so far been attributing to plague. For example, [Mark Welford and Brian Bossak][1] have shown that while
+current laboratory-confirmed casesgenerally occur between November and April, Medieval Black Death epidemics
+recurrently burst between April and October. Have we been wrongly attributing the Black Death epidemics to the
+bubonic and pneumonic plagues? 
 
 This question remains open, and we are simply going to illustrate here how mechanistic models could be used to
-provide further insight into the characteristic of present and historic epidemics. We will be working on two time
+provide further insight into the characteristics of present and historic epidemics. We will be working on two time
 series of the 1665 epidemic in the UK, each indicating the monthly number of deaths caused by plague in London
 and Eyam. Contrasting these two cases is not only interesting due to the population size difference between London 
 and Eyam, that had respectively 460000 and 350 inhabitants at the beginning of the epidemics, but also due to the
