@@ -43,7 +43,7 @@ These results provide information that could not have been inferred from straigh
 deaths in each city.
 First, they suggest that the isolation and living conditions in Eyam lead to a higher transmissibility of the
 disease. Furthermore, life expectancy after infection appears to be close to one week, suggesting that this epidemic
-was a bubonic plague rather than a pneumonic plague.
+was a bubonic plague rather than a pneumonic plague. The latter seems to be confirmed by historical records.
 
 
 For the sake of transparency, and to foster further explorations of this problem and the data provided 
