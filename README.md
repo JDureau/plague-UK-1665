@@ -39,7 +39,8 @@ well as life expectancy with plague, are the following:
 ![data](https://raw.github.com/JDureau/plague-UK-1665/master/images/post.png?login=JDureau&token=cf7c103e477d22b80a8d07c7d0a3f41e)
 
 
-These results provide information that could not have been inferred from straight observation of the time series of deaths.
+These results provide information that could not have been inferred from straight observation of the time series of
+deaths in each city.
 First, they suggest that the isolation and living conditions in Eyam lead to a higher transmissibility of the
 disease. Furthermore, life expectancy after infection appears to be close to one week, suggesting that this epidemic
 was a bubonic plague rather than a pneumonic plague.
